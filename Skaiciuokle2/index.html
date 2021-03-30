@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <h1>Užduotis</h1>
+        <div id="uzduotiesDivas">
+            <div id="pirmasSkaicius">5</div>
+            <div id="veiksmas">+</div>
+            <div id="antrasSkaicius">5</div>
+            <div id="lygybe">=</div>
+            <div id="atsakymas">
+                <input id="atsakymoReiksme" type="number" placeholder="?">
+            </div>
+            <button id="spausk">Patvirtinti</button>
+        </div>
+        <div id="atsakymai">
+            <div class="papildomas hidden" id="papildomas">Labas rytas</div>
+            <div id="teisingiAtsakymai"></div>
+            <div id="neteisingiAtsakymai"></div>
+        </div>
+    </div>
+    <script src="skaiciuokle.js"></script>
+</body>
+</html>

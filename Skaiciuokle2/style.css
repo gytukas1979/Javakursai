@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #679094;
+}
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto;   
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin: 1rem auto 2.5rem;
+}
+
+#uzduotiesDivas {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+#pirmasSkaicius, #veiksmas, #antrasSkaicius, #lygybe, #atsakymas {
+    color: white;
+    font-size: 3rem;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+}
+#atsakymas {
+    width: 7rem;
+    height: 4rem;
+}
+#atsakymoReiksme {
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#spausk {
+    margin-left: 1rem;
+    width: 7rem;
+    background: blue;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    color: white;
+}
+#spausk:hover {
+    background-color: green;
+}
+
+.papildomas {
+    font-size: 2.5rem;
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+
+#teisingiAtsakymai {
+    font-size: 2.5rem;
+    color: green;
+    margin: 1rem;
+}
+
+#neteisingiAtsakymai {
+    font-size: 2.5rem;
+    color: #793e3e;
+    margin: 1rem;
+}
